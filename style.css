@@ -1,0 +1,48 @@
+
+body {
+    color: #fff;
+    text-transform: capitalize;
+    background: linear-gradient(#ee550f, #30e6e6);
+    margin: 200px auto 400px;
+}
+
+#wrapper {
+    background: rgba(0, 0, 0, 0.6);
+    width: 300px;
+    margin: 50px auto 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#login {
+    width: calc(50% - (5px * 2));
+    padding: 5px;
+    text-align: center;
+    display:inline-block;
+    color: #fff;
+    cursor: pointer;
+    background: rgba(201, 118, 9, 0.3);
+    
+
+}
+#register {
+    width: calc(50% - (5px * 2));
+    padding: 5px;
+    text-align: center;
+    display:inline-block;
+    color: #888;
+    cursor: pointer;
+    background: rgba(201, 118, 9, 0.3);
+}
+
+#loginForm {
+    margin: 20px;
+}
+#registerForm {
+    margin: 20px;
+}
+
+
+.loginFormEmail{
+
+}
+
